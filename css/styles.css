@@ -371,55 +371,49 @@ template {
   display: none;
 }
 
-/* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
-/* line 5, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
+/* line 2, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
 * {
   font-family: 'Lato', sans-serif;
-  color: #777;
+  color: #443266;
   box-sizing: border-box;
 }
 
-/* line 11, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
+/* line 8, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
 p {
   line-height: 1.45em;
 }
 
-/* line 15, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
+/* line 12, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* ============================================= */
-/*              Typography                       */
-/* ============================================= */
-/* line 24, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
+/* line 17, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
 .headline-primary {
-  color: #58e1c1;
+  color: #C3C3E5;
   margin-left: 10px;
 }
 
-/* line 29, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
+/* line 22, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
-  color: #777;
+  color: #C3C3E5;
 }
 
-/* line 34, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
+/* line 27, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
 .link {
-  color: #51ddfc;
+  color: #8C489F;
   font-weight: 700;
 }
 
-/* line 39, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
+/* line 32, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/base/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid #58e1c1;
+  border-left: 8px solid #F1F0FF;
   border-radius: 5px;
 }
 
@@ -2443,25 +2437,22 @@ a {
   padding: 0 24px;
 }
 
-/* ============================================= */
-/*              Forms                            */
-/* ============================================= */
-/* line 6, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_forms.scss */
+/* line 2, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_forms.scss */
 .form {
   flex-basis: 100%;
 }
 
-/* line 10, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_forms.scss */
+/* line 6, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_forms.scss */
 .input {
   display: block;
   width: 94%;
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1;
+  border-bottom: 5px solid #443266;
 }
 
-/* line 19, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_forms.scss */
+/* line 15, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_forms.scss */
 .hidden {
   position: absolute;
   left: -10000px;
@@ -2491,14 +2482,11 @@ a {
 
 /* line 19, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_navigation.scss */
 .nav-link:hover {
-  color: #fff;
-  background-color: #58e1c1;
+  color: #383343;
+  background-color: #F1F0FF;
 }
 
-/* ============================================= */
-/*              Images                           */
-/* ============================================= */
-/* line 6, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_images.scss */
+/* line 2, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_images.scss */
 .img-avatar {
   display: block;
   margin-left: auto;
@@ -2508,7 +2496,7 @@ a {
   max-height: 100%;
 }
 
-/* line 15, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_images.scss */
+/* line 11, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -2519,29 +2507,26 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 25, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_images.scss */
+/* line 21, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* ============================================= */
-/*              Grid System                      */
-/* ============================================= */
-/* line 5, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 2, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .container {
   padding: 0 10px;
 }
 
-/* line 9, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 6, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
 }
 
-/* line 15, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 12, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -2550,170 +2535,167 @@ a {
   border-radius: 5px;
 }
 
-/* line 23, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 20, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-1 {
   background-color: #927bc1;
 }
 
-/* line 27, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 24, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-2 {
   background-color: #fd7856;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 28, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
-/* line 35, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 32, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
-/* line 39, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 36, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
-/* line 43, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 40, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
-/* line 47, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 44, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
-/* line 51, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 48, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
-/* line 55, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 52, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
-/* line 59, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 56, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
-/* line 63, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 60, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
-/* line 67, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 64, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
-/* line 71, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
+/* line 68, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_grid.scss */
 .card {
   flex-basis: 100%;
 }
 
-/* ============================================= */
-/*              Media Queries                    */
-/* ============================================= */
 @media (min-width: 768px) {
-  /* line 7, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 5, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .container {
     max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 14, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 12, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 20, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 18, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .row {
     flex-direction: row;
   }
-  /* line 24, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 22, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
-  /* line 31, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 29, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 35, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 33, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 39, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 37, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 43, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 41, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-3 {
     flex-basis: 25.00%;
   }
-  /* line 47, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 45, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 51, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 49, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 55, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 53, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-6 {
     flex-basis: 50.00%;
   }
-  /* line 59, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 57, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 63, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 61, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 67, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 65, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 71, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 69, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 75, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 73, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 79, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 77, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 83, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 81, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 89, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 87, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .nav-link {
     flex-basis: 100px;
   }
-  /* line 93, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 91, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 97, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 95, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 101, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
+  /* line 99, ../../../../../../../../../../../../../Users/pavlosvalamontes/Desktop/Web Style Guide/scss/component/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;

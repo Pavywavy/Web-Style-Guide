@@ -1,7 +1,3 @@
-/* ============================================= */
-/*              Buttons                          */
-/* ============================================= */
-
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -13,21 +9,21 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $main-color;
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $second-color;
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $third-color;
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $fourth-color;
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $fifth-color;
 }
